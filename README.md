@@ -148,3 +148,20 @@ if(n == sum){</br>
 }else{</br>
     print(paste(n, " is not Armstrong"))</br>
 }</br>
+
+### `Exp 7`
+
+student_marks =c(12,88,77,90,67,58,95,81,70,85)</br>
+names(student_marks)=c("Pratibha","Krutika","Pratibha","Purva","Siddhi","Jigna","Vinayak","Aditya","Shaan","Rahul")</br>
+
+pie(student_marks, labels=names(student_marks),col="green",main="Pie Chart", radius=1,col.main="red")</br>
+
+barplot(student_marks, xlab="Students", ylab="Marks", col="lightblue",col.axis="darkgreen",col.lab="black", border="black")</br>
+
+boxplot(student_marks~names(student_marks))</br>
+boxplot(student_marks, xlab="Box Plot", ylab="Age",col.axis = "darkgreen", col.lab = "darkgreen")</br>
+
+hist(student_marks, main = "Histogram", xlab = "Marks", col.lab = "darkgreen", col.main = "darkgreen", col = "yellow")</br>
+
+plot(student_marks, type= "o", col = "green", xlab = "Students", ylab = "Marks", main = "Line Graph")</br>
+plot(x = student_marks, y= NULL, xlab = "Students", ylab = "Marks",main="ScatterPlot", col.lab = "darkgreen", col.main = "darkgreen", col.axis = "darkgreen")</br>
